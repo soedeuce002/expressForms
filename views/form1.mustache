@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form 1 Activity</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <h1>Tell us about yourself!</h1>
+
+      <form action="/aboutUser" method="post">
+        <div>
+          <input type="text" name="name" placeholder="Name" />
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <div>
+          <input type="number" name="born" placeholder="Birth Year" />
+        </div>
+        <div>
+          <select name="position" placeholder="Please select one of the following options..." />
+              <option value="Technical Manager">Technical Manager</option>
+              <option value="Developer">Developer</option>
+              <option value="UI Designer">UI Designer</option>
+              <option value="Graphic Designer">Graphic Designer</option>
+          </select>
+        </div>
+        <div>
+          <input type="password" name="password" placeholder="Enter your password..." />
+        </div>
+
+          <button>Submit</button>
+
+      </form>
+
+  </body>
+</html>
